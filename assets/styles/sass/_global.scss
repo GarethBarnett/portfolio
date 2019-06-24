@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -34,8 +34,13 @@ h6{
     font-size: 16px;
 }
 
+.content-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
 .container {
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
 }
 
@@ -77,7 +82,11 @@ h6{
 
 @media all and (max-width: 600px) {
 	.container {
-		width: 100%;
+		width: 80%;
+    }
+    
+    .content-container {
+		width: 80%;
 	}
 
 
