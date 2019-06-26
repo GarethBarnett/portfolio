@@ -13,13 +13,13 @@
 //    loader.parentNode.removeChild(loader);
 // }, 3000);
 
-
-$("body").css('overflow', 'hidden');
-$(".loader").fadeIn();
-setTimeout(() => {
-$("body").css('overflow', 'unset');
-$(".loader").fadeOut(300);
-}, 2200);
+//working
+// $("body").css('overflow', 'hidden');
+// $(".loader").fadeIn();
+// setTimeout(() => {
+// $("body").css('overflow', 'unset');
+// $(".loader").fadeOut(300);
+// }, 2200);
 
 
 
@@ -64,8 +64,6 @@ var mySwiper = new Swiper ('.swiper-container', {
     el: '.swiper-scrollbar',
   },
 
-
-
   // breakpoints: {
   //           768: {
   //               spaceBetween: 20,
@@ -81,10 +79,5 @@ var mySwiper = new Swiper ('.swiper-container', {
   //           }
   //       }
 
-
-
-
-
-  
 });
 

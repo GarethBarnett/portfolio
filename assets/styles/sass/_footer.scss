@@ -1,52 +1,25 @@
 footer{
-    background-color: #121212;
-    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #ff6600;
+    height: 80px;
     color: white;
-    font-weight: 900;
+    border-radius: 35px 0;
+    align-self: center;
 }
 
-footer h2{
-    padding-top: 70px;
+.footer-left{
+    margin-left: 50px;
+    align-self: center;
 }
 
-footer h6{
-    transform: rotate(-90deg);
-    width: 50px;
-    position: absolute;
-    top: 134px;
-    left: -60px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-}
+.footer-right{
+    margin-right: 50px;
+    justify-self: end;
+    align-self: center;
 
-footer h3{
-    width: 245px;
-    color: #fc2c82;
-    border-bottom: 4px solid #fc2c82; 
-    margin-top: 10px;
+    a{
+        font-size: 30px;
+        margin-left: 15px;
+    }
 }
-
-.footer-container{
-    width: 70%;
-    margin: 0 auto;
-    position: relative;
-}
-
-.social-container{
-    padding-top: 50px;
-}
-
-.social {
-    color: #fff;
-    font-size: 25px;
-    border-radius: 50%;
-    transition: 0.4s ease-in-out;
-    margin-right: 10px;
-    text-align: center;
-}
-
-.social:hover { 
-    cursor: pointer;
-    color:#fc2c82;
-}
-
