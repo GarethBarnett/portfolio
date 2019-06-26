@@ -95,13 +95,13 @@ p{
 @media all and (max-width: 1200px) {
 
     body{
-        transition:all 10s ease-in-out;
+        transition:all .5s ease-in-out;
     }
     
     .content-container {
-        width: 80%;
+        width: 90%;
         max-width: 500px;
-        transition:all 10s ease-in-out;
+        transition:all .5s ease-in-out;
     }
     
   
