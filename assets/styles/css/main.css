@@ -5,8 +5,16 @@ body {
 a {
   text-decoration: none; }
 
+* {
+  transition: all .5s ease-out; }
+
+*:hover {
+  transition: all .5s ease-out; }
+
 a:hover {
-  color: #3c3c3c; }
+  color: #3c3c3c;
+  transition: all .5s ease-out;
+  transform: scale(1.08); }
 
 h1 {
   font-size: 80px;

@@ -1,3 +1,9 @@
+function dom_loaded(){
+
+    AOS.init();
+}
+
+document.addEventListener("DOMContentLoaded", dom_loaded);
 // let loader = document.getElementById("splash");
 
 // /* Splash Animation */
