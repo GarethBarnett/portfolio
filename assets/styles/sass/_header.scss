@@ -36,39 +36,22 @@ header{
 
 .header-menu-links{
     margin-top: 18px;
-    // grid-column:2/2;
-    
-    
     text-align: center;
-   
-
-
-
-    a{
+    
+        a{
         text-transform: uppercase;
         font-size: 15px;
         color: white;
-        
         }
     
         a:first-child{
-            border-right: 1px solid #6c6c6c;	
-       
+        border-right: 1px solid #6c6c6c;	
         padding: 6px 34px;
         }
 
         a:last-child{
-            padding: 6px 27px;
-           
-            }
-    
-    
-
-}
-
-
-.header-content{
-    
+         padding: 6px 27px;
+        }
 }
 
 
