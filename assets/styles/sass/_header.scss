@@ -129,6 +129,11 @@ header{
 	.header-content-inner {
 		width: 80%;
 		margin-top: 50px;
+		text-align: center;
+		a{
+			margin-right: 0;
+			padding: 10px;
+		}
 	}
 
 	.header-menu {
