@@ -1,5 +1,5 @@
- $("body").css('overflow', 'hidden');
- $(".loader").show();
+$("body").css('overflow', 'hidden');
+
  setTimeout(() => {
  $("body").css('overflow', 'unset');
  $(".loader").fadeOut(300);
