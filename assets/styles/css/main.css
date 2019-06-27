@@ -67,11 +67,20 @@ span {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 50px; }
 
+@media all and (max-width: 1200px) {
+  body {
+    transition: all .5s ease-in-out; }
+
+  .content-container {
+    width: 90%;
+    max-width: 500px;
+    transition: all .5s ease-in-out; } }
 .loader {
   width: 100vw;
   height: 100vh;
+  top: 0;
   position: fixed;
-  background: #fc2c82;
+  background: white;
   z-index: 9999;
   display: flex;
   justify-content: center;
@@ -92,14 +101,68 @@ span {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
-@media all and (max-width: 1200px) {
-  body {
-    transition: all .5s ease-in-out; }
+.load {
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  width: 70px;
+  height: 70px; }
 
-  .content-container {
-    width: 90%;
-    max-width: 500px;
-    transition: all .5s ease-in-out; } }
+.block {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  background: #ff6600;
+  transition: all 0.8s;
+  animation: rot 5s linear infinite; }
+
+.block:nth-child(1) {
+  animation-delay: 3s; }
+
+.block:nth-child(2) {
+  animation-delay: 1.5s;
+  animation: rot 15s linear infinite; }
+
+.block:nth-child(3) {
+  animation-delay: 2s; }
+
+.block:nth-child(4) {
+  animation-delay: 0.2s; }
+
+.block:nth-child(5) {
+  animation-delay: 4s; }
+
+.block:nth-child(6) {
+  animation-delay: 2s;
+  animation: rot 7s linear infinite; }
+
+.block:nth-child(7) {
+  animation-delay: 0.4s; }
+
+.block:nth-child(8) {
+  animation-delay: 1.5s;
+  animation: rot 6s linear infinite; }
+
+.block:nth-child(9) {
+  animation-delay: 25s;
+  animation: rot 8s linear infinite; }
+
+@keyframes rot {
+  0% {
+    transform: none; }
+  20% {
+    transform: rotateZ(-90deg) rotateY(180deg); }
+  40% {
+    background: #ff6600;
+    transform: none; }
+  60% {
+    background: #ff4901; }
+  80% {
+    background: #ff6600; }
+  90% {
+    transform: none;
+    background: #ff6600; } }
 header {
   display: grid;
   grid-template-columns: 225px 1fr;
