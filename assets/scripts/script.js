@@ -1,6 +1,8 @@
 function dom_loaded(){
 
     AOS.init();
+
+    var scroll = new SmoothScroll('a[href*="#"]');
 }
 
 document.addEventListener("DOMContentLoaded", dom_loaded);
