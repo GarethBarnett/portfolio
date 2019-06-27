@@ -10,7 +10,6 @@ a {
 
 
 * {
-    // box-sizing: border-box;
     transition: all .5s ease-out;
   }
   
@@ -61,6 +60,11 @@ p{
     line-height: 1.5em;
 }
 
+span{
+    font-weight: 700;
+    margin-right: 20px;
+}
+
 .content-container{
     width: 1100px;
     margin: 80px auto;
@@ -68,13 +72,22 @@ p{
     background: #f8f8f8;
     // border: 1px solid #dbdbdb;
     border: 1px solid rgba(0,0,0,0.1);
+    overflow: hidden;
 }
 
 
 
 .container {
-	width: 60%;
-	margin: 0 auto;
+	width: 90%;
+    margin: 0 auto;
+    
+    h2 {
+        font-size: 32px;
+        font-weight: 700;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        margin-bottom: 50px;
+    }
 }
 
   .loader {

@@ -19,7 +19,6 @@ header{
 .header-panel{
     display: grid;
     grid-template-rows: 55px 1fr;
-   
 }
 
 
@@ -32,6 +31,7 @@ header{
     border-radius: 0 0 0 35px;
     width: 300px;
     justify-self: end;
+
 }
 
 .header-menu-links{
@@ -52,6 +52,8 @@ header{
         a:last-child{
          padding: 6px 27px;
         }
+
+      
 }
 
 
