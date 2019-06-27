@@ -3,6 +3,7 @@ $("body").css('overflow', 'hidden');
  setTimeout(() => {
  $("body").css('overflow', 'unset');
  $(".loader").fadeOut(300);
+ $(".content-container").removeClass('hide');
  }, 1800);
 
 
