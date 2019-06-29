@@ -11,6 +11,8 @@ footer{
 .footer-left{
     margin-left: 50px;
     align-self: center;
+    font-size: 12px;
+    font-weight: 300;
 }
 
 .footer-right{
@@ -22,6 +24,7 @@ footer{
         font-size: 30px;
         margin-left: 15px;
         color: white;
+        cursor: pointer;
     }
 
     
@@ -42,8 +45,6 @@ footer{
     
     .footer-left {
     margin-left: 30px;
- 
-    font-size: 12px;
     }
 
     .footer-right {

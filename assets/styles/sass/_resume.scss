@@ -8,27 +8,27 @@
 
 
 .resume-panel-left{
-    margin-bottom: 20px;
-    
         margin-bottom: 20px;
         background: black;
         color: white;
-        height: 70px;
-        border-radius: 0 35px;
+        height: 40px;
+        border-radius: 0 25px;
 
         h5{
-            font-weight: 700;
-            padding: 22px 0;
+            font-weight: 500;
+            padding: 7px 0;
             margin-left: 20px;
         }
     
 
          h6{
-        font-weight: 700;
-        padding: 27px 0;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 12px 0;
         margin-left: 20px;
     }
 }
+
 
 .container:first-child{
     border-top: 0;

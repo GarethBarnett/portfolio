@@ -4,14 +4,11 @@ $("body").css('overflow', 'hidden');
  $("body").css('overflow', 'unset');
  $(".loader").fadeOut(300);
  $(".content-container").removeClass('hide');
+ AOS.init();
  }, 800);
 
 
 function dom_loaded(){
-
-    let loader = document.getElementById("splash");
-
-    AOS.init();
 
     var scroll = new SmoothScroll('a[href*="#"]');
 
