@@ -4,26 +4,8 @@
   top: 0;
   position: fixed;
   background: white;
-  z-index: 9999;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
+  z-index: 9999; }
 
-#spinner {
-  animation: rotate 0.56s infinite linear;
-  width: 50px;
-  height: 50px;
-  border: 12px solid #fff;
-  border-bottom: 12px solid #fc2c82;
-  border-radius: 50%;
-  margin: 0; }
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
 .load {
   position: absolute;
   top: calc(50% - 30px);
@@ -35,6 +17,7 @@
   position: relative;
   height: 20px;
   width: 20px;
+  border-radius: 5px 0;
   display: inline-block;
   background: #ff6600;
   transition: all 0.8s;
@@ -77,15 +60,15 @@
   20% {
     transform: rotateZ(-90deg) rotateY(180deg); }
   40% {
-    background: #ff6600;
+    background: #000;
     transform: none; }
   60% {
-    background: #ff4901; }
+    background: #000; }
   80% {
-    background: #ff6600; }
+    background: #000; }
   90% {
     transform: none;
-    background: #ff6600; } }
+    background: #000; } }
 body {
   font-family: 'Poppins', sans-serif;
   transition: all .5s ease-in-out; }
@@ -178,6 +161,11 @@ header {
   padding: 20px;
   text-align: center; }
 
+.header-logo img {
+  margin-top: 135px;
+  margin-bottom: 5px;
+  width: 110px; }
+
 .header-panel {
   display: grid;
   grid-template-rows: 55px 1fr; }
@@ -229,8 +217,9 @@ header {
   .header-logo {
     height: 235px;
     border-radius: 35px 0 0 0; }
-    .header-logo h1 {
-      margin-top: 50px; }
+    .header-logo img {
+      margin-top: 35px;
+      margin-bottom: 5px; }
 
   .header-menu {
     border-radius: 0 0 35px 0; }
@@ -257,9 +246,10 @@ header {
   padding: 20px;
   text-align: center;
   color: white; }
-  .header-logo-sub h1 {
-    font-size: 60px;
-    margin-top: 16px; }
+  .header-logo-sub img {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    width: 80px; }
   .header-logo-sub p {
     font-size: 10px; }
 
@@ -272,6 +262,10 @@ header {
   .header-logo-sub {
     height: 235px;
     border-radius: 35px 0 0 0; }
+    .header-logo-sub img {
+      margin-top: 35px;
+      margin-bottom: 5px;
+      width: 110px; }
     .header-logo-sub h1 {
       margin-top: 50px; } }
 .resume-panel {

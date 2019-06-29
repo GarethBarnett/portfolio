@@ -2,9 +2,9 @@ $("body").css('overflow', 'hidden');
 
  setTimeout(() => {
  $("body").css('overflow', 'unset');
- $(".loader").fadeOut(300);
+ $(".loader").fadeOut(500);
  $(".content-container").removeClass('hide');
- }, 1800);
+ }, 700);
 
 
 function dom_loaded(){
