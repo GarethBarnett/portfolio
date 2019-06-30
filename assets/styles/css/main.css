@@ -403,6 +403,11 @@ button:hover {
   .panel-bottom a:first-child {
     border-right: 1px solid #6c6c6c; }
 
+.panel-bottom-single {
+  grid-template-columns: 1fr; }
+  .panel-bottom-single a:first-child {
+    border-right: none; }
+
 @media all and (max-width: 1200px) {
   .panel {
     min-width: 250px; } }
