@@ -12,7 +12,7 @@ function dom_loaded(){
 
     var scroll = new SmoothScroll('a[href*="#"]');
 
-    document.title = "Gareth Barnett UX/UI Portfolio"
+    document.title = "Gareth Barnett - Portfolio"
   
 }
 
