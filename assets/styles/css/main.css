@@ -100,6 +100,7 @@ span {
   .content-container {
     width: 90%;
     max-width: 500px;
+    margin: 20px auto;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out; }
 
@@ -306,7 +307,7 @@ header {
   -ms-flex-item-align: center;
       align-self: center; }
   .contact-social i {
-    color: #000; }
+    color: #ff5400; }
   .contact-social i:first-child {
     margin-right: 20px; }
 
@@ -402,7 +403,8 @@ button:hover {
   .panel-content h6 {
     margin-bottom: 25px;
     font-size: 13px;
-    font-weight: 600; }
+    font-weight: 600;
+    word-spacing: 4px; }
   .panel-content P {
     font-size: 12.5px; }
 
