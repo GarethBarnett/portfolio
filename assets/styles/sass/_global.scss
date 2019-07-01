@@ -70,7 +70,6 @@ span{
     margin: 80px auto;
     border-radius: 35px 0;
     background: #f8f8f8;
-    // border: 1px solid #dbdbdb;
     border: 1px solid rgba(0,0,0,0.1);
     overflow: hidden;
 }
@@ -112,6 +111,7 @@ span{
     .content-container {
         width: 90%;
         max-width: 500px;
+        margin: 20px auto;
         transition:all .5s ease-in-out;
     }
 
