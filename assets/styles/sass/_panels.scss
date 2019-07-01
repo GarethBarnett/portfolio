@@ -104,22 +104,38 @@
 }
 
 
-
 @media all and (max-width: 1200px) {
 
 	.panels-container{
-		// width: 82.5%;
+		width: 90.5%;
 		grid-template-columns: 1fr;
 		grid-gap: 5rem;
 	}
 
-    
-
+	
 	.panel {
-	
 		min-width: 250px;
+		margin-top: 0;
+	}
+
 	
+	.panel:first-child{
+		margin-top: 75px;
 	}
 
 
 }
+
+
+
+@media all and (max-width: 500px) {
+
+	.panel-image {
+		height: 190px;
+	}
+
+}
+
+
+
+
